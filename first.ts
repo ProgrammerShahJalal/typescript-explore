@@ -7,9 +7,19 @@ let goney: string = "All will be OK insallah.";
 let noney: boolean = true;
 
 
-function add(first: number, second: number) {
+function add(first: number, second: number): number {
     let sum = first + second;
     return sum;
 }
-// const output: number = add(45, 65);
-add(45, 65);
+const output: number = add(45, 65);
+
+function dobleConsole(number: number): void {
+    console.log(2 * number)
+}
+
+//multi purpose
+/* function add(first: number|string, second: number|string): number|string {
+    let sum = first + second;
+    return sum;
+}
+const output: number = add(45, 65); */
