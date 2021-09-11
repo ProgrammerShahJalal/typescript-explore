@@ -7,11 +7,11 @@ let goney: string = "All will be OK insallah.";
 let noney: boolean = true;
 
 
-function add(first: number, second: number): number {
+function myAdd(first: number, second: number): number {
     let sum = first + second;
     return sum;
 }
-const output: number = add(45, 65);
+const output: number = myAdd(45, 65);
 
 function dobleConsole(number: number): void {
     console.log(2 * number)
